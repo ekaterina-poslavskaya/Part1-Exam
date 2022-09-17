@@ -62,15 +62,16 @@ public class clsArraySubSet
         //Несколько тестовых наборов
         // задаем их переменной strArray, которая далее везде используется
         string[] strArray1 = { "12345", "1456", "-2", "hv", " " };
-        string[] strArray2 = {};
-        string[] strArray3 = {"hgdd", "dsfdf", "hsf:dsf", "00000", "     "};
+        string[] strArray2 = { };
+        string[] strArray3 = { "hgdd", "dsfdf", "hsf:dsf", "00000", "     " };
+        string[] strArray4 = {"1", "0", "-yf", "-6", "-  "};
 
 
+        string[] strArray = strArray4;
+        int ControlLength = 3;
+        string[] resArray = new string[GetCountOfStrings(strArray, ControlLength)];
 
-        string[] strArray = strArray3;
-        string[] resArray = new string[GetCountOfStrings(strArray, 3)];
-
-        CopyStrings(strArray, resArray, 3);
+        CopyStrings(strArray, resArray, ControlLength);
 
         PrintStringAray(strArray, "Исходный массив:");
         PrintStringAray(resArray, "Результирующий массив:");
