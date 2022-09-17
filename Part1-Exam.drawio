@@ -1,0 +1,69 @@
+<mxfile host="65bd71144e">
+    <diagram id="aJj5OnpfIMygN9XPc8s5" name="Page-1">
+        <mxGraphModel dx="911" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="469.8800000000001" y="140.01999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Начало метода&amp;nbsp;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;Main&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="30" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;span&gt;Конец метода&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;Main&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="840" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="15" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="462.5" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Присваиваем массив рабочей переменной:&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;string&lt;/span&gt;[] &lt;span style=&quot;color: #001080&quot;&gt;strArray&lt;/span&gt; = &lt;span style=&quot;color: #001080&quot;&gt;strArray1;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="210" width="520" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.513;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="17" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460.32094594594605" y="390" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Считаем количество элементов для итогового массива и создаем итоговый массив&lt;br&gt;:&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;string&lt;/span&gt;[] &lt;span style=&quot;color: #001080&quot;&gt;resArray&lt;/span&gt; = &lt;span style=&quot;color: #0000ff&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;color: #0000ff&quot;&gt;string&lt;/span&gt;[&lt;span style=&quot;color: #795e26&quot;&gt;GetCountOfStrings&lt;/span&gt;(&lt;span style=&quot;color: #001080&quot;&gt;strArray&lt;/span&gt;, &lt;span style=&quot;color: #001080&quot;&gt;ControlLength&lt;/span&gt;)];&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="203" y="420" width="520" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Копируем строки соответствующей длины в итоговый массив:&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #795e26&quot;&gt;CopyStrings&lt;/span&gt;(&lt;span style=&quot;color: #001080&quot;&gt;strArray&lt;/span&gt;, &lt;span style=&quot;color: #001080&quot;&gt;resArray&lt;/span&gt;, &lt;span style=&quot;color: #001080&quot;&gt;ControlLength&lt;/span&gt;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="203" y="540" width="520" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;span&gt;Задаем массив в тестовую переменнут&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;string&lt;/span&gt;[]&amp;nbsp;&lt;span style=&quot;color: rgb(0 , 16 , 128)&quot;&gt;strArray1&lt;/span&gt;&amp;nbsp;= {&amp;nbsp;&lt;span style=&quot;color: rgb(163 , 21 , 21)&quot;&gt;&quot;12345&quot;&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(163 , 21 , 21)&quot;&gt;&quot;1456&quot;&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(163 , 21 , 21)&quot;&gt;&quot;-2&quot;&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(163 , 21 , 21)&quot;&gt;&quot;hv&quot;&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(163 , 21 , 21)&quot;&gt;&quot; &quot;&lt;/span&gt;&amp;nbsp;};&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="175" y="120" width="590" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;span&gt;Задаем контрольную длину выбираемых строк:&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;int&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(0 , 16 , 128)&quot;&gt;ControlLength&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: rgb(9 , 134 , 88)&quot;&gt;3;&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="320" width="550" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.483;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Выводим на экран исходный массив строк:&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #795e26&quot;&gt;PrintStringAray&lt;/span&gt;(&lt;span style=&quot;color: #001080&quot;&gt;strArray&lt;/span&gt;, &lt;span style=&quot;color: #a31515&quot;&gt;&quot;Исходный массив:&quot;&lt;/span&gt;);&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="630" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Выводим на экран результирующий массив строк:&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #795e26&quot;&gt;PrintStringAray&lt;/span&gt;(&lt;span style=&quot;color: #001080&quot;&gt;resArray&lt;/span&gt;, &lt;span style=&quot;color: #a31515&quot;&gt;&quot;Результирующий массив:&quot;&lt;/span&gt;);&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="740" width="460" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
